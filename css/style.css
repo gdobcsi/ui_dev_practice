@@ -1,0 +1,135 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+
+.v1 {
+  height: 100vh;
+}
+.v1-outer {
+  color: #6daedb;
+  background-color: #1b4353;
+}
+.burger-container {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  border-radius: 50%;
+  background-color: #1d70a2;
+}
+i.fa.fa-bars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.75rem;
+  color: #bcd8c1;
+}
+.v1 h1 {
+  width: 400px;
+
+  margin-top: 6rem;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  line-height: 1.2;
+  color: #b56576;
+  color: #e56b6f;
+}
+.v1 p {
+  width: 550px;
+  margin-top: -2rem;
+
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2.1;
+  letter-spacing: 2px;
+  font-family: "Open Sans Condensed", sans-serif;
+
+  color: white;
+}
+.btn.btn-secondary.apply1 {
+  width: 250px;
+  height: 70px;
+  border-radius: 40px;
+
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+
+  border-color: #1d70a2;
+  color: #bcd8c1;
+  background-color: #1d70a2;
+}
+
+@media only screen and (min-width: 840px) {
+  .v1 {
+    height: 100vh;
+  }
+  .v1-outer {
+    color: #6daedb;
+    background-color: #1b4353;
+  }
+  .burger-container {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 1rem;
+    right: 1.75rem;
+    border-radius: 50%;
+    background-color: #1d70a2;
+  }
+  i.fa.fa-bars {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.75rem;
+    color: #bcd8c1;
+  }
+  .v1 h1 {
+    width: 800px;
+    margin-top: 3rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 8rem;
+    line-height: 1;
+    color: #b56576;
+    color: #e56b6f;
+  }
+  .v1 p {
+    width: 510px;
+
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    font-family: "Open Sans Condensed", sans-serif;
+
+    color: white;
+  }
+  .btn.btn-secondary.apply1 {
+    width: 250px;
+    height: 70px;
+    border-radius: 40px;
+
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+
+    border-color: #1d70a2;
+    color: #bcd8c1;
+    background-color: #1d70a2;
+  }
+}
